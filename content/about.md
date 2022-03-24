@@ -7,3 +7,14 @@ draft: false
 This is my About page
 en zo voort
 
+# https://gohugo.io/variables/git/  
+
+*        {{ .Lastmod }} 
+*        {{ .GitInfo.AuthorName }} 
+*        {{ .GitInfo.AbbreviatedHash }}
+*        {{ .GitInfo.AuthorEmail }} 
+*        {{ .GitInfo.AuthorDate }}
+*        {{ .GitInfo.Hash }}
+*        {{ .GitInfo.Subject }}
+
+
