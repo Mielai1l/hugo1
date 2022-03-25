@@ -6,3 +6,5 @@ On this site you'll find
 * My projects
 * My Résumé
 
+etc
+
