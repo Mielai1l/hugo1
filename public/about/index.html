@@ -10,8 +10,54 @@
 
         <h2>About</h2>
 
-        <p>This is my About page</p>
+        <p>This is my About page
+en zo voort</p>
+<h1 id="httpsgohugoiovariablesgit"><a href="https://gohugo.io/variables/git/">https://gohugo.io/variables/git/</a></h1>
+<ul>
+<li>
+<pre><code>   {{ .Lastmod }} 
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.AuthorName }} 
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.AbbreviatedHash }}
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.AuthorEmail }} 
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.AuthorDate }}
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.Hash }}
+</code></pre>
+</li>
+<li>
+<pre><code>   {{ .GitInfo.Subject }}
+</code></pre>
+</li>
+</ul>
 
 
+        <hr>
+        <p>werkt enkel als server gestart wordt met 
+        <code>hugo server --enableGitInfo  </code>
+        </p>
+        <pre>
+        2022-03-24 22:32:39 &#43;0100 CET 
+        Godfried Borremans - UGent 
+        b9c46f8
+        godfried.borremans.ugent&#43;github@gmail.com 
+        2022-03-24 22:32:39 &#43;0100 CET
+        b9c46f8b520699c03c241b4c98fab8c6236ac0db
+        basic theme toegevoegd
+        </pre>
+        <p>This is themes/basic/layouts/_default/single.html </p>
     </body>
 </html>

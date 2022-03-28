@@ -10,11 +10,5 @@ en zo voort
 # https://gohugo.io/variables/git/  
 
 *        {{ .Lastmod }} 
-*        {{ .GitInfo.AuthorName }} 
-*        {{ .GitInfo.AbbreviatedHash }}
-*        {{ .GitInfo.AuthorEmail }} 
-*        {{ .GitInfo.AuthorDate }}
-*        {{ .GitInfo.Hash }}
-*        {{ .GitInfo.Subject }}
 
 
