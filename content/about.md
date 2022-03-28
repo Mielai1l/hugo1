@@ -9,6 +9,5 @@ en zo voort
 
 # https://gohugo.io/variables/git/  
 
-*        {{ .Lastmod }} 
 
 
